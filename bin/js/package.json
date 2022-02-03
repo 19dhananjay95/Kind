@@ -23,3 +23,29 @@
     "formcore-js": "^0.1.95"
   }
 }
+let DUMMY_EXPENSE = [
+  {
+    id: "e1",
+    title: "school Fee",
+    amount: 250,
+    date: new Date(2021, 8, 12),
+  },
+  {
+    id: "e2",
+    title: "Gym Fee",
+    amount: 150,
+    date: new Date(2021, 5, 13),
+  },
+  {
+    id: "e3",
+    title: "computer Fee",
+    amount: 500,
+    date: new Date(2021, 6, 25),
+  },
+  {
+    id: "e3",
+    title: "Full Stack Develaper Fee",
+    amount: 3500,
+    date: new Date(2021, 1, 8),
+  },
+];

@@ -14,3 +14,5 @@ execSync("git checkout "+kind_path);
 console.log("Generating kind.js");
 execSync("kind Kind.api.export --js --module | js-beautify >> "+kind_path+".tmp");
 execSync("mv "+kind_path+".tmp "+kind_path);
+
+This is my code and don't change agine 
